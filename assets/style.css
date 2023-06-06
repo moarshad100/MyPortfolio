@@ -1,6 +1,42 @@
-header {
+:root {
+    --linkcolors: rgb(51, 56, 5);
+}
 
-    background-color: blue;
+
+header {
+    display: flex;
+    background-color: rgb(83, 80, 80);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+header h2 {
+    background-color: aqua;
+    max-width: max-content;
+    padding: 0px;
+    margin: 2% 0;
+    /* color: #ffffff00; */
+}
+
+
+
+nav ul {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 25px;
+
+
+}
+
+nav ul li a {
+    color: aliceblue;
 }
 
 
@@ -8,6 +44,33 @@ header {
     background-color: aqua;
     display: flex;
     flex-direction: row;
+}
 
 
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+}
+
+main div {
+    width: 250px;
+    height: 250px;
+}
+
+aside {
+    flex: 30%;
+
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: right;
+
+}
+
+
+section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
 }
