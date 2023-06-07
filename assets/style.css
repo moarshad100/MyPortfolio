@@ -19,18 +19,25 @@ header h2 {
     /* color: #ffffff00; */
 }
 
-
+nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+}
 
 nav ul {
     display: flex;
-
     justify-content: space-between;
+    min-width: 300px;
 
 }
 
 nav ul li {
     text-decoration: none;
     font-size: 25px;
+    margin-left: 30px;
+
 
 
 }
