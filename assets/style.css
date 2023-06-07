@@ -1,8 +1,10 @@
+/* variables */
 :root {
     --linkcolors: rgb(51, 56, 5);
 }
 
 
+/*  */
 header {
     display: flex;
     background-color: rgb(83, 80, 80);
@@ -12,11 +14,22 @@ header {
 }
 
 header h2 {
-    background-color: aqua;
+    background-color: rgb(117, 136, 136);
     max-width: max-content;
     padding: 0px;
     margin: 2% 0;
-    /* color: #ffffff00; */
+}
+
+/*  */
+#seperator {
+    display: flex;
+    background-color: rgb(107, 62, 32);
+    height: 50px;
+    text-align: end;
+}
+
+.subtitles {
+    text-align: center;
 }
 
 nav a {
@@ -33,13 +46,12 @@ nav ul {
 
 }
 
+
+
 nav ul li {
     text-decoration: none;
     font-size: 25px;
     margin-left: 30px;
-
-
-
 }
 
 nav ul li a {
@@ -47,10 +59,11 @@ nav ul li a {
 }
 
 
-.flexbox {
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
+
+span div {
+    background-color: aquamarine;
+    /* text-align: right; */
+    te
 }
 
 
@@ -62,22 +75,38 @@ main {
 }
 
 main div {
-    width: 250px;
-    height: 250px;
+    height: 150px;
 }
 
 aside {
     flex: 30%;
-
     padding: 20px;
     flex-wrap: wrap;
     text-align: right;
-
 }
-
 
 section {
     flex: 70%;
     background-color: #fff;
     padding: 20px;
+}
+
+section div {
+    margin-bottom: 2px;
+    border: yellowgreen;
+    border-style: groove;
+}
+
+footer {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
