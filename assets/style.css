@@ -4,7 +4,7 @@
 }
 
 
-/*  */
+/*Selects header element  */
 header {
     display: flex;
     background-color: rgb(83, 80, 80);
@@ -20,7 +20,7 @@ header h2 {
     margin: 2% 0;
 }
 
-/*  */
+/* Selects seperator class */
 #seperator {
     display: flex;
     background-color: rgb(107, 62, 32);
@@ -28,10 +28,12 @@ header h2 {
     text-align: end;
 }
 
+/* Selects subtitles id */
 .subtitles {
     text-align: center;
 }
 
+/* Selects nav elements */
 nav a {
     background-color: unset;
     color: var(--navlink-color);
@@ -46,8 +48,6 @@ nav ul {
 
 }
 
-
-
 nav ul li {
     text-decoration: none;
     font-size: 25px;
@@ -59,14 +59,14 @@ nav ul li a {
 }
 
 
-
+/* Selects span elements */
 span div {
     background-color: aquamarine;
-    /* text-align: right; */
-    te
+    text-align: right;
+
 }
 
-
+/* Selects main elements */
 main {
     display: flex;
     flex: 1 1 0;
@@ -78,6 +78,7 @@ main div {
     height: 150px;
 }
 
+/* Selects aside elements */
 aside {
     flex: 30%;
     padding: 20px;
@@ -85,6 +86,7 @@ aside {
     text-align: right;
 }
 
+/* Selects section elements */
 section {
     flex: 70%;
     background-color: #fff;
@@ -97,6 +99,7 @@ section div {
     border-style: groove;
 }
 
+/* Selects footer elements */
 footer {
     display: flex;
     flex: 1 1 0;
@@ -109,4 +112,13 @@ footer ul {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+    }
 }
