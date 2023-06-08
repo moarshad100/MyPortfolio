@@ -12,4 +12,7 @@ Arshad's Portfolio
  * A nav with an id Seperator is created to seperate the header tag and main tag
  * The "main" tag is created, inside which i have placed "aside" tag and a "section" tag. Main is displayed as flex and the aside tag has 30% flex and the section tag has the other 70% flex.
 * About me and Work section is defined inside the "main" tag.
+![About me and work Image](assets/ReadmeImages/Aboutme_work.jpg)
+
 * Contact me is defined inside the "footer" tag
+![Contact me Image](assets/ReadmeImages/contactme.jpg)
